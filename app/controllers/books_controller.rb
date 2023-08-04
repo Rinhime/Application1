@@ -8,19 +8,22 @@ class BooksController < ApplicationController
 
   def create
     
-    book = Book.new(params[:id])
+    book = Book.new(book_params)
     
     #if @book.save
     book.save
-    redirect_to '/books/:id'
+    redirect_to '/'
     #詳細画面ができるまでトップに戻る
+    
     #else
+      #@book = Book.all
       #render :new
     
   end
   
   def show
     @book = Book.find(params[:id])
+                
   end
 
   def edit
