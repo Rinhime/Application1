@@ -3,20 +3,24 @@ class BooksController < ApplicationController
   
   def index
     @books = Book.all
-    @book = Book.new(book_params)
+    @book = Book.new
   end
 
   def create
-    @book = Book.new(book_params)
-    if @book.save
-    redirect_to '/'
+    
+    book = Book.new(params[:id])
+    
+    #if @book.save
+    book.save
+    redirect_to '/books/:id'
     #詳細画面ができるまでトップに戻る
-    else
-      render :new
-    end
+    #else
+      #render :new
+    
   end
   
   def show
+    @book = Book.find(params[:id])
   end
 
   def edit
