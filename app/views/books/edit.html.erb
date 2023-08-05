@@ -5,8 +5,10 @@
   <%= f.text_field :title %>
 
   <p>Body</p>
-  <%= f.text_area :bpdy %>
+  <%= f.text_area :body %>
   
   <%= f.submit 'Update Book' %>
   
+  <%= link_to "Show", book_path %>
+  <%= link_to "Back", '/books' %>
 <% end %>
