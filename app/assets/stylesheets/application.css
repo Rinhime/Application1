@@ -82,18 +82,26 @@ td {
   margin:3px 0px;
 }
 
-.detail-title{
+.title-box{
   display:flex;
   margin-bottom:30px;
 }
 
-.detail-body {
+.body-box {
   display:flex;
 }
 
-.link {
+.link-box {
   display:flex;
 }
-.detail-link{
+.link {
   margin:3px;
+}
+
+.edit-title {
+  margin-bottom:5px;
+}
+
+.edit-body {
+  margin:10px 0px;
 }
