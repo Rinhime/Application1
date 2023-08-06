@@ -25,16 +25,12 @@ main {
   font-family:verdana, arial, helvetica, sans-serif;
   font-size:12px;
   line-height: 18px;
-  margin:30px;
+  margin:32px;
 }
 
 h1 {
   font-size:26px;
   margin:20px 0px;
-}
-
-p {
-  
 }
 
 .book-comment {
@@ -57,6 +53,7 @@ table {
 
 th {
   font-size:12px;
+  padding-bottom:4px;
 }
 
 td {
@@ -82,20 +79,32 @@ td {
   margin:3px 0px;
 }
 
-.title-box{
+.text-success {
+  color:#008000;
+  margin-left:32px;
+}
+
+h4 {
+  margin-right:3px;
+}
+
+.detail-title {
   display:flex;
   margin-bottom:30px;
 }
 
-.body-box {
+.detail-body {
   display:flex;
 }
 
 .link-box {
   display:flex;
+  margin-top:7px;
+  font-size:11px;
 }
 .link {
   margin:3px;
+  display:flex;
 }
 
 .edit-title {

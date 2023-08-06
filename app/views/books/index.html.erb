@@ -1,6 +1,8 @@
 <main>
-  
-  <h1>Books</h1><%= flash[:notice] %>
+  <div class="text-success">
+    <%= flash[:notice] %>
+  </div>
+  <h1>Books</h1>
     <table>
       <thead>
         <tr>
@@ -48,7 +50,9 @@
           <%= f.text_area :body %>
         </div>
 
-        <%= f.submit'Create Book' %>
+　　　  <div class="create-submit">
+          <%= f.submit'Create Book' %>
+        </div>
       <% end %>
     </div>
 </main>
