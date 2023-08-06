@@ -23,7 +23,7 @@
 main {
   color:#000;
   font-family:verdana, arial, helvetica, sans-serif;
-  font-size:14px;
+  font-size:12px;
   line-height: 18px;
   margin:30px;
 }
@@ -47,4 +47,53 @@ p {
 
 .book-comment2 {
   margin-bottom:30px;
+}
+
+table {
+  font-size:12px;
+  line-height:16px;
+  margin-bottom:16px;
+}
+
+th {
+  font-size:12px;
+}
+
+td {
+  padding:3px;
+}
+
+.new-form {
+  line-height:16px;
+}
+
+.form-title {
+  font-size:15px;
+  margin-bottom:10px;
+}
+
+.form-1 {
+  padding:3px;
+  margin:3px 0px;
+}
+
+.form-2 {
+  padding:3px;
+  margin:3px 0px;
+}
+
+.detail-title{
+  display:flex;
+  margin-bottom:30px;
+}
+
+.detail-body {
+  display:flex;
+}
+
+.link {
+  display:flex;
+}
+.detail-link{
+  margin:3px;
 }
